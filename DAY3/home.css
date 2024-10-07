@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background: chartreuse;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+    border: 2px,solid,balck;
+    padding: 5px;
+    border-radius: 0cap;
+
+}
+a:hover{
+    background-color: aqua;
+    color: blue;
+
+}
+.maincontent{
+    display: flex;
+    border: 3px,solid,green;
+    justify-content: space-around;
+    margin: 20px;
+    height: 100px;
+    background-color: aquamarine;
+    align-items: unset;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+td{
+    border: 2px.solid,balck;
+    
+}

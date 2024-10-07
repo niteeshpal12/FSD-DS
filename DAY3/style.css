@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.fitem{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    font-size: 30px;
+    border: solid,green;
+    margin: 20px;
+
+}
+.fitem1{
+    order: 3;
+}
+.fitem4{
+    order: -1;
+    flex-grow: 3;
+}
+.fitem2{
+    flex-grow: 2;
+}
+.fcontainer{
+    height: 300px;
+    border: 4px,solid,green;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
