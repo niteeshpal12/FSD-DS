@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #dv {
+            width: 200px;
+            height: 200px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="dv">SQUARE</div>
+    <script>
+        function changecolour() {
+            let dv = document.querySelector('div');
+            dv.style.backgroundColor = 'red';
+        }
+        function changecolour2() {
+            let dv = document.querySelector('div');
+            dv.style.backgroundColor = 'yellow';
+        }
+        
+        let dv = document.getElementById('div');
+        dv.addEventListener('mouseover', changecolour);
+        dv.addEventListener('mouseout', changecolour2); 
+        
+    </script>
+</body>
+</html>
