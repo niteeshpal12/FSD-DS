@@ -1,0 +1,19 @@
+/* ImageApp.css */
+
+.disp {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .panel {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .img1 {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 300px;
+    text-align: center;
+  }
+  

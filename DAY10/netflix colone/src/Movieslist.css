@@ -1,0 +1,33 @@
+.movie-list{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movie-card {
+    width: 30%;
+    margin: 20px;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+}
+.movie-img{
+    width: 80%;
+    height: 60%;
+    margin: 10px;
+    padding: 20px;
+
+}
+.movie-card h1 {
+    color: azure;
+    background-color: grey;
+    font-size: 20px;
+
+}
+.movie-card h2 {
+    color: gray;
+    font-size: 20px;
+}
